@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class HospitalSystem {
+public class Main {
     public static void searchDoctorByName(ArrayList<Doctor> list, String nameToFind) {
         boolean found = false;
         System.out.println("\nSearching for Doctor: " + nameToFind + "...");
