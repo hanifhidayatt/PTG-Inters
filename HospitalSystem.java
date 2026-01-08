@@ -47,8 +47,7 @@ public class HospitalSystem {
         p2.payBill(500.00); // No insurance
         p1.payBill(500.00); // Has insurance
 
-        // 6. EXTRA FEATURE: SEARCH FUNCTION DEMO
-        // You can change "Sarah Lee" to any name to test
+        // EXTRA FEATURE: SEARCH FUNCTION DEMO
         searchDoctorByName(doctors, "Hanif Hidayat");
         searchDoctorByName(doctors, "House MD"); // Should fail
     }
