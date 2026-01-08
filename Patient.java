@@ -1,4 +1,4 @@
-class Patient extends Person { 
+class Patient extends Person {
     private String patientID;
     private String illness;
     private boolean insurance;
@@ -9,8 +9,8 @@ class Patient extends Person {
         this.illness = illness;
         this.insurance = insurance;
     }
-  
-    @override
+
+    @Override
     public void displayInfo() {
         System.out.println("--- PATIENT DETAILS ---");
         System.out.println("ID: " + patientID);
